@@ -24,6 +24,7 @@
 #>
 function Restore-FileSafety {
     [CmdletBinding()]
+    [Alias('restore')]
     param(
         [Parameter(
             Mandatory,
